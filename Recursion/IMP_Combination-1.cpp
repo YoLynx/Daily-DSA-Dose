@@ -2,7 +2,7 @@
 // public:
 //     void f(int i, int target, vector<int>&arr, vector<vector<int>>&ans, vector<int>&ds) {
 //         if(i==arr.size()) {
-//             if(target==0) {
+//             if(target==0) {    //base case
 //                 ans.push_back(ds);
 //             }
 //             return;
@@ -28,5 +28,6 @@
 //     }
 // };
 
-// This is basic code idea.
+// This idea is based on picking the element or not.
+// This is basic code idea where the elements in the candidates array may repeat to make up the target sum.
 // Time Complexity -> O(2^t.k) -> nearly exponential.  As we get 2^t subsequences.  Or 2^t*k is the time complexity as we are printing the subsequence.

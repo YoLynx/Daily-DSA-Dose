@@ -5,7 +5,7 @@ void f(int i, vector<int>&a, vector<int>&ans, int k) {
   if(i==a.size()) {
     int sum=0;
     for(int j=0;j<ans.size();j++) sum+=ans[j];
-    if(sum==k) {
+    if(sum==k) {             // Base case
       for(int j=0;j<ans.size();j++) cout<<ans[j]<<" ";
       cout<<endl;
     }

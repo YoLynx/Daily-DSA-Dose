@@ -2,7 +2,7 @@
 using namespace std;
 
 void f(int i, vector<int>& a, int n) {
-  if(i>=n/2) return;
+  if(i>=n/2) return;         // Base case
   
   swap(a[i], a[n-i-1]);
 
