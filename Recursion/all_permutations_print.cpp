@@ -31,3 +31,5 @@
 
 // We are printing all the permutations of the given array.
 // We are making the use of hash map where we will see what elements we will take.
+// Method-2 : We can also make swapping over indices to get the permutations.
+// Time Complexity -> O(n! * n) and Space Complexity -> O(n! * n).
