@@ -1,4 +1,7 @@
 // Problem Link : https://leetcode.com/problems/path-with-minimum-effort/
+// Dijsktra's Algorithm is used to find the minimum effort path in a grid.
+// Time Complexity: O(N * M * log(N * M)), where N is the number of rows and M is the number of columns in the grid.
+// Space Complexity: O(N * M), where N is the number of rows and M is the number of columns in the grid.
 
 class Solution {
 public:
